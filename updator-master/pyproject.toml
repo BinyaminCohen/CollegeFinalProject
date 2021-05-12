@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "updator"
+author = "Shir Avr"
+author-email = "shir@bhh.co.il"
+home-page = "https://github.com/ShirAvr/updator.git"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.rst"
+requires-python = ">=3"
+requires = [
+	"pymongo >=3.10.0", 
+	"astor >=0.8.1",
+	"click >=7.1.1",
+	"tabulate >=0.8.7" 
+]
+
+[tool.flit.scripts]
+updator = "updator:main"

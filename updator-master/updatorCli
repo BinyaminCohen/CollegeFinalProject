@@ -1,0 +1,5 @@
+#!/usr/local/bin/python3
+"""Command line entry point for updator"""
+
+from updator.updator import main
+main()

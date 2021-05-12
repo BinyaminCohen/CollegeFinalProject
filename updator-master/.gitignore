@@ -1,0 +1,9 @@
+/build/
+/dist/
+MANIFEST
+*.pyc
+codeplay.py
+tests/convertedCode.py
+tests/sourceCode.py
+tests/codeFileToConvert.py
+dbRulesScript.py
